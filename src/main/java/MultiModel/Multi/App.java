@@ -47,6 +47,7 @@ public class App
     	System.out.println(aa.indexOf(' '));
     	
     	String assist_img = "1\004i1/125478964/T2I9kWXXVaXXXXXXXX_!!125478964.jpg\0031\004i2/125478964/T2M.EYXdNXXXXXXXXX_!!125478964.jpg";
+        String aa = "test";
 		String[] img_info = assist_img.split("\003");
 		String[] img_urls = new String[10];
 		for (int i = 0; i < img_info.length; ++i) {
